@@ -8,7 +8,7 @@ class Settings():
         #屏幕设置
         self.screen_width = 1200
         self.screen_height = 800
-        self.background = pygame.image.load('images/backg.jpg')
+        self.background = pygame.image.load('backg.jpg')
 
         #飞船的设置
         self.ship_limit = 3
