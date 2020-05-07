@@ -9,7 +9,7 @@ from button import Button
 
 ##### 音乐走起
 pygame.mixer.init()
-pygame.mixer.music.load("music/main.mp3")
+pygame.mixer.music.load("main.mp3")
 
 def run_game():
     #初始化游戏并创建一个屏幕对象
