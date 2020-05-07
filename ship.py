@@ -11,7 +11,7 @@ class Ship(Sprite):
         self.ai_settings = ai_settings#这里需要传实参，不然会报错
 
         #加载飞船并获取其外接矩形
-        self.image = pygame.image.load('images/spaceship.bmp')
+        self.image = pygame.image.load('spaceship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
